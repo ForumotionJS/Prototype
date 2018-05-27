@@ -10,6 +10,6 @@ Array.prototype.empty = function(arr) {
  for(var i=0; i<arr.length; i++) {
   arr.pop();
  if(typeof arr !== 'array') {
-  console.log("There's a problem on running the code. Please contact the site administrator.");
+  console.error("No array detected.");
  }
 };
